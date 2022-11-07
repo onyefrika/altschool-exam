@@ -1,0 +1,31 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: peachpuff;
+  color: #073944;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 8px 25px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #073944;
+  transition: 0.3s ease-in;
+}
+.btn:hover {
+  background-color: #39a2db;
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  a.btn {
+    background-color: #39a2db;
+    color: #ffffff;
+    font-size: 15px;
+  }
+}
